@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ExchangeFragment">
+
+    <TextView
+        android:id="@+id/usdToTry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="USD/TRY"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/usdTOtryBirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="30dp"
+        android:text="14.7"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="190dp"
+        android:text="EUR/TRY"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/eurTOtryBirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="190dp"
+        android:text="16.0"
+        android:textSize="30dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:text="Amount:"
+        android:textSize="30dp"></TextView>
+
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/amount"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="350dp"
+        android:textSize="30dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/buyUSDButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:text="BUY USD/TRY"></Button>
+
+
+    <Button
+        android:id="@+id/buyEURBUtton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="450dp"
+        android:text="BUY EUR/TRY"></Button>
+
+
+
+
+</RelativeLayout>
